@@ -1,0 +1,2 @@
+# Bluecollars-job-portal
+JOBS  INVOLVING PHYSICAL LABOR OR A SKILLED TRADE
