@@ -1,0 +1,110 @@
+/* * General Reset */ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* Header Section */
+.header {
+  background: url('BACKGROUND1.jfif') no-repeat center center / cover;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links, .auth-links {
+  display: flex;
+  gap: 15px;
+}
+.hero {
+  margin-top: 50px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.job-search {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.job-search input, .job-search select, .job-search button {
+  padding: 10px;
+}
+
+/* Partners Section */
+.partners {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+/* Recent Jobs Section */
+.recent-jobs {
+  padding: 20px;
+  text-align: center;
+}
+.job-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Categories Section */
+.categories {
+  padding: 20px;
+  background: #f9f9f9;
+}
+.category {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 20px;
+}
+.testimonial {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Blog Section */
+.blog {
+  padding: 20px;
+}
+.blog-post {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+}
